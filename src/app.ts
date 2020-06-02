@@ -35,7 +35,7 @@ export default class HelloWorld {
         console.log(user);
         if (user.name === "Paluffel"){
             Actor.CreateFromLibrary(this.context, {
-                resourceId: "artifact: 1485632342415377360",
+                resourceId: "artifact: 1486434168744182115",
                 actor: {
                     name: 'Retro',
                     attachment: {
