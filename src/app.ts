@@ -81,11 +81,11 @@ export default class HelloWorld {
                 exclusiveToUser: user.id,
                 attachment: {
                     userId: user.id,
-                    attachPoint: 'hips'
+                    attachPoint: 'left-hand'
                 },
 				transform: {local: {
 					position: { x: 0, y: -0.3, z: 1 },
-					scale: { x: 0.5, y: 0.5, z: 0.5}
+					scale: { x: 0.2, y: 0.2, z: 0.2}
 				}}
 			}
 		});
