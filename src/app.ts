@@ -74,7 +74,7 @@ export default class HelloWorld {
             console.log(user);
             if (user.name === "Paluffel"){
                 const mirror =   Actor.CreateFromLibrary(this.context, {
-            resourceId: "artifact: 1314062242190197175",
+            resourceId: "artifact: 1457558605027868963",
 			actor: {
                 name: 'Mirror',
                 grabbable: true,
@@ -85,7 +85,7 @@ export default class HelloWorld {
                 },
 				transform: {local: {
 					position: { x: 0, y: 0, z: 0 },
-					scale: { x: 0.2, y: 0.2, z: 0.2}
+					scale: { x: 0.05, y: 0.05, z: 0.5}
 				}}
 			}
 		});
