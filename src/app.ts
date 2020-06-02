@@ -74,22 +74,22 @@ export default class HelloWorld {
             console.log(user);
             if (user.name === "Paluffel"){
                 const mirror =   Actor.CreateFromLibrary(this.context, {
-                     resourceId: "artifact: 1460421793033487217",
+            resourceId: "artifact: 1314062242190197175",
 			actor: {
                 name: 'Mirror',
-                exclusiveToUser: user.id,
                 grabbable: true,
+                exclusiveToUser: user.id,
                 attachment: {
                     userId: user.id,
-                    attachPoint: 'left-hand'
+                    attachPoint: 'hips'
                 },
 				transform: {local: {
-					position: { x: 0, y: 0, z: -0.03 },
-                    scale: { x: 0.2, y: 0.2, z: 0.2},
-                    rotation: { x: 0, y: 0, z: 0.90},
+					position: { x: 0, y: -0.3, z: 1 },
+					scale: { x: 0.5, y: 0.5, z: 0.5}
 				}}
 			}
 		});
+			
 
 		// Create button behavior for cube.
 		mirror.setBehavior(ButtonBehavior).onButton("pressed", (user: User) => {
