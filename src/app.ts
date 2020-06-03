@@ -63,7 +63,7 @@ export default class HelloWorld {
                     },
                     transform: {local: {
                         position: { x: 0, y: 0, z: 0 },
-                        scale: { x: 1, y: 1, z: 1},
+                        scale: { x: 1.01, y: 1.01, z: 1.01},
                        
                     }}
                 }
