@@ -73,7 +73,7 @@ export default class HelloWorld {
         console.log(user);
         if (user.name === "Paluffel"){
             Actor.CreateFromLibrary(this.context, {
-                resourceId: "artifact: 1487852792499404971",
+                resourceId: "artifact: 1486434159046951265",
                 actor: {
                     name: 'Retro',
                     attachment: {
@@ -114,7 +114,7 @@ export default class HelloWorld {
 			if (!this.attachedItems[user.id]) {
       // If item for user does not exist, create it and add to list.
 				this.attachedItems[user.id] = Actor.CreateFromLibrary(this.context, {
-          resourceId: "artifact: 1487108384111984849",
+          resourceId: "artifact: 1486434168744182115",
           actor: {
               name: 'Retro',
               attachment: {
