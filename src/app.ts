@@ -63,7 +63,7 @@ export default class HelloWorld {
                     },
                     transform: {local: {
                         position: { x: 0, y: 0, z: 0 },
-                        scale: { x: 1.02, y: 1.02, z: 1.02},
+                        scale: { x: 1.01, y: 1.01, z: 1.01},
                        
                     }}
                 }
@@ -73,7 +73,7 @@ export default class HelloWorld {
         console.log(user);
         if (user.name === "Paluffel"){
             Actor.CreateFromLibrary(this.context, {
-                resourceId: "artifact: 1487108376771952844",
+                resourceId: "artifact: 1487852792499404971",
                 actor: {
                     name: 'Retro',
                     attachment: {
@@ -82,7 +82,7 @@ export default class HelloWorld {
                     },
                     transform: {local: {
                         position: { x: 0, y: 0, z: 0 },
-                        scale: { x: 1, y: 1, z: 1},
+                        scale: { x: 1.5, y: 1.5, z: 1.5},
                        
                     }}
                 }
